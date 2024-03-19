@@ -1,0 +1,39 @@
+:root{
+    --text-color:#70B5F9;
+    --text-font: Roboto, sans-serif;
+    --text-white: #FFFFFF99;
+    --text-cor: #1B2226;
+  
+    --margin-size: 1% 0% 0% 10%;
+  }
+.atividade{
+    width: 780px;
+    height: 371px;
+    top: 878px;
+    left: 154px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    background-color:var(--text-cor);
+    margin: 1% 0% 0% 9.7%;
+    font-family: var(--text-font)
+}
+.atividade h3{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+.atividade ol{
+    color: var(--text-color);
+}
+.publi{
+    width: 64px;
+    height: 64px;
+    top: 979px;
+    left: 176px;
+    gap: 0px;
+    opacity: 0px;
+}   

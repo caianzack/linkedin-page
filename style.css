@@ -1,0 +1,289 @@
+
+:root{
+  --text-color:#70B5F9;
+  --text-font: Roboto, sans-serif;
+  --text-white: #FFFFFF99;
+  --text-cor: #1B2226;
+
+  --margin-size: 1% 0% 0% 10%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media(max-width: 1080px){
+  html{
+    font-size: 93.75%;
+  }
+}
+  
+@media(max-width: 720px){
+  html{
+    font-size: 87.5%; 
+  }
+}
+
+body{
+  background-color: black;
+  color: antiquewhite;
+  list-style: none;
+}
+/* //////////////////// titulo ///////////////////////////// */
+.cabecalho{
+  background-color: #1B2226; 
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  border: 1px;
+  max-width: 100%;
+  align-items: center;
+  margin: 0% 10% 0% 10%;
+  font-family: var(--text-font);
+}
+.logo{
+  width: 34px;
+  height: 34px;
+  top: 9px;
+  left: 153px;
+}
+.logo__name{
+  text-decoration: none;
+  color: var(--text-white);
+}
+.pesquisa{
+  display: flex;
+  align-items: center;  
+  width: 280px;
+  height: 34px;
+  top: 9px;
+  left: 195px;
+  border-radius: 4px;  
+  background: #38434F;
+}
+.pesquisa input{
+  width: 63px;
+  height: 30px;
+  top: 11px;
+  left: 200px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #38434F;
+  border: none;
+}
+.imagem{
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 203px;  
+}
+.pesquisa input:focus-visible {
+  outline: none;
+}
+.title__link{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.title__link__links{
+  width: 80px;
+  height: 38px;
+  top: 7px;
+  left: 647px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.solucoes{
+  width: 80px;
+  height: 38px;
+  top: 7px;
+  left: 975px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo__type{
+  width: 24px;
+  height: 24px;
+  top: 7px;
+  left: 595px;
+}
+/* //////////////////////////////////////// perfil ///////////////////////////////  */
+ 
+.perfil{
+  margin: 1% 0% 0% 10%; 
+  width: 780px; 
+  height: 468px;
+  top: 76px;
+  left: 154px;
+  font-family: var(--text-font)
+}
+.perfil__capa{
+  width: 780px;
+  height: 230px;
+  border-radius: 16px 16px 16px 16px;
+}
+.perfil__capa img{
+  width: 780px;
+  border-radius: 16px 16px 0px 0px;
+  margin: -0% 0% 0% -0.5%;
+}
+.perfil__link{
+  width: 160px;
+  height: 160px;
+  top: 194px;
+  left: 178px;
+}
+.perfil__inf{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: -5% 0% 0% -0.5%; 
+  width: 780px;
+  height: 230px;
+  top: 306px;
+  border-radius: 0px 0px 16px 16px;
+  background: #1B2226;
+  padding: 3%;
+}
+.perfil__inf__title{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.perfil__inf__title h3{
+  font-size: 16px;
+}
+.perfil__inf__sub{
+  font-family: var(--text-font); 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: var(--text-white);
+}
+.perfil__inf__sub strong{
+  color: var(--text-color);
+}
+.botao{
+  display: flex;
+  gap: 30px;
+  width: 128px;
+  height: 32px;
+  top: 488px;
+  left: 178px;
+  font-size: 14px;
+  margin: 2% 0% 0% 0%;
+}
+.botao p{
+  border-radius: 16px;
+  background-color: #70B5F9;
+  border: solid 1px var(--text-color);  
+  width: 128px;
+  height: 32px;
+  top: 488px;
+  left: 178px;
+  color: #000000BF;
+  padding: 3.5%;
+}
+.botao a{
+  border-radius: 16px;
+  border: solid 1px var(--text-color);  
+  width: 128px;
+  height: 32px;
+  top: 488px;
+  left: 178px;
+  color: var(--text-color);
+  padding: 3.5%;
+}
+.botao :hover {
+  color: var(--text-white)
+}
+.perfil__inf__link{
+  display: flex;
+  flex-direction: column;
+  margin: 0% 0% -15% 70%;
+  justify-content: end; 
+}
+/* //////////////// destaque //////////////////////////// */
+.destaque{
+  width: 780px;
+  height: 312px;
+  top: 552px;
+  left: 153px;
+  border: 1px;
+  margin: 10% 0% 0% 9.7%;
+  background-color: var(--text-cor);
+  border-radius: 16px;
+}
+.destaque h2{
+  margin: 5% 0% 0% 2%;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.destaque__cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 1.5% 0% 0% 0%;
+}
+.destaque__link{
+  width: 238px;
+  height: 236px;
+  top: 606px;
+  left: 169px;
+  border: solid 0.5px var(--text-white);
+  border-radius: 8px;
+}
+.destaque__link p{
+  font-family: var(--text-font);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--text-white);
+}
+.destaque__link a{
+  font-family: var(--text-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.destaque__link img{
+  width: 236px;
+  height: 152px;
+  top: 662px;
+  left: 170px;
+}
+.destaque__link__links{
+  font-size: 12px;
+  color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.destaque__link__links img{
+  width: 32px;
+  height: 16px;
+  top: 820px;
+  left: 173px;
+}
+/* /////////////////////////// atividade ///////////// */
